@@ -10,9 +10,9 @@ Made using pyglet. (This project is under development.)
 
 ### Usage
 
-#### Install pyglet and other dependencies
+#### Install pyglet
 ```
-pip install -r requirements.txt
+pip install pyglet
 ```
 #### Run
 ```
