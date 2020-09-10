@@ -12,7 +12,7 @@ Run
 ----
 
 `````
- ./visgraph
+ ./visgraph.py
 `````
 
 
