@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import sys
 import pyglet
 from pyglet.window import key, mouse
@@ -10,23 +9,8 @@ from app.line import Line
 from app.graph import Graph
 from pyglet import clock
 
-data = [3, 4, 1, 2, 5, 7, 9, 24, 25, 34, 26, 314, 343, 75, 78, 99, 10, 42, 11, 12, 432, 5352, 45]
-edges = [(0,1),
-         (2, 1), 
-         (2,0),
-         (4, 3), 
-         (2, 5), 
-         (0, 4), 
-         (0, 6), 
-         (4,5), 
-         (6,9), 
-         (2, 9), 
-         (2, 11), 
-         (1, 4),
-         (8, 9),
-         (10, 12),
-         (10, 0)
-        ]
+data = [3, 4, 1, 2, 9]
+edges = [(0,1), (2, 1), (2,0), (4, 3), (0, 3), (1, 3)]
 
 
 window = pyglet.window.Window(width=1200, height=800)

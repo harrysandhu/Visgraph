@@ -17,4 +17,8 @@ pip install pyglet
 #### Run
 ```
 python visgraph.py
+
 ```
+- Press [SPACE].
+
+<img src="">

@@ -17,8 +17,8 @@ class Graph:
         self.data = data
         self.i = 0
         self.q = []
-        self.bfs_data = []
         self.dfs_data = [] 
+        self.bfs_data = []
         for i in range(len(data)):
             rx = np.random.randint(200, window.width-200)
             ry = np.random.randint(100, window.height-100)
@@ -70,7 +70,7 @@ class Graph:
         while len(s) > 0:
             v = s.pop(0)
             
-            if nodes[v] == -1
+            if nodes[v] == -1:
                 nodes[v] = 0
                 self.dfs_data.append(nodes.copy())
                 for w in self.adj(v):
