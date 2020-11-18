@@ -53,11 +53,12 @@ class Graph:
 
         while len(q) > 0:
             v = q.pop(0)
-            nodes[v] = 0
             self.bfs_data.append(nodes.copy())
             for w in self.adj(v):
                 if nodes[w] == -1:
                     q.append(w)
+                    nodes[w] = 0
+                    self.bfs_data.append(nodes.copy())
             nodes[v] = 1
             self.bfs_data.append(nodes.copy())
 

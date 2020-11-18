@@ -9,7 +9,7 @@ from app.line import Line
 from app.graph import Graph
 from pyglet import clock
 
-data = [3, 4, 1, 2, 9]
+data = [1, 2, 3, 4, 5]
 edges = [(0,1), (2, 1), (2,0), (4, 3), (0, 3), (1, 3)]
 
 
