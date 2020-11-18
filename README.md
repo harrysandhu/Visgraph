@@ -42,4 +42,4 @@ python visgraph.py
 ```
 - Press [SPACE].
 
-<img src="">
+<img src="./graph.png">
