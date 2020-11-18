@@ -40,6 +40,7 @@ pip install pyglet
 python visgraph.py
 
 ```
-- Press [SPACE].
+- START: Press [SPACE]
+- EXIT : ESC
 
 <img src="./graph.png">
